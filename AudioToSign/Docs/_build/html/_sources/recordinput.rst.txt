@@ -1,0 +1,7 @@
+recordinput module
+==================
+
+.. automodule:: recordinput
+   :members:
+   :undoc-members:
+   :show-inheritance:
