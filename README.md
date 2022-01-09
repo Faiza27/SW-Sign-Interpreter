@@ -1,1 +1,0 @@
-# SW-Sign-Interpreter
