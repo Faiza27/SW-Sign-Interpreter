@@ -46,11 +46,11 @@ Tkinter is for GUI framework
 """
 # obtain audio from the microphone
 """
-speechtoSign() return if matches with the input
+speech_to_sign() return if matches with the input
 """
 
 
-def speechtoSign():
+def speech_to_sign():
         my_audio= sr.Recognizer()
         my_inputs=['any questions', 'are you angry', 'are you busy', 'are you hungry', 'are you sick', 'be careful',
                 'can we meet tomorrow', 'did you book tickets', 'did you finish homework','Hello','lets go for lunch'
@@ -183,6 +183,6 @@ while 1:
   buttonbox method has 3 parameter(text,title,button_list)
   """
   if reply ==choices[0]:
-        speechtoSign()
+        speech_to_sign()
   if reply == choices[1]:
         quit()
