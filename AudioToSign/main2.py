@@ -49,7 +49,7 @@ Tkinter is for GUI framework
 speechtoSign() return if matches with the input
 """
 
-import audio_data
+
 def speechtoSign():
         my_audio= sr.Recognizer()
         
