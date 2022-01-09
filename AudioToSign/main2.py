@@ -52,7 +52,9 @@ speechtoSign() return if matches with the input
 import audio_data
 def speechtoSign():
         my_audio= sr.Recognizer()
-        my_inputs=['any questions', 'are you angry', 'are you busy', 'are you hungry', 'are you sick', 'be careful',
+        
+        with sr.Microphone() as source:
+               my_inputs=['any questions', 'are you angry', 'are you busy', 'are you hungry', 'are you sick', 'be careful',
                 'can we meet tomorrow', 'did you book tickets', 'did you finish homework','Hello','lets go for lunch'
                 'do you want something to drink', 'do you want tea or coffee', 'good morning','what is your name'
                  'i am fine', 'i am sorry', 'i am thinking', 'i am tired', 'i dont understand anything','what is your problem'
@@ -65,7 +67,6 @@ def speechtoSign():
         arr_letter=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r', 's','t','u','v','w','x','y','z']
         """taking source as audio from microphone"""
 
-        with sr.Microphone() as source:
 
             #For adjusting with background noise
 
