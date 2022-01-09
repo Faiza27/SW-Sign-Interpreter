@@ -97,7 +97,7 @@ def speechtoSign():
                                         print("oops!Time To say good bye")
                                         break
 
-                                elif(alphabet.lower() in audio_data.my_inputs):
+                                elif(alphabet.lower() in my_inputs):
 
                                     class ImageLabel(tk.Label):
                                             """a label that displays images, and plays them, if they are gifs"""
