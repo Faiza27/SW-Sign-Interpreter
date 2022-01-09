@@ -154,7 +154,7 @@ def speechtoSign():
                                     """ root.mainloop() is an eventloop for appearing Tkinter window """
                                 else:
                                     for i in range(len(alphabet)):
-                                                    if(alphabet[i] in audio_data.arr_letter):
+                                                    if(alphabet[i] in arr_letter):
 
                                                             ImageAddress = 'letters/'+alphabet[i]+'.jpg'
                                                             ImageItself = Image.open(ImageAddress)
