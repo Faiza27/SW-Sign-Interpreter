@@ -52,7 +52,7 @@ speechtoSign() return if matches with the input
 import audio_data
 def speechtoSign():
         my_audio= sr.Recognizer()
-         my_inputs=['any questions', 'are you angry', 'are you busy', 'are you hungry', 'are you sick', 'be careful',
+        my_inputs=['any questions', 'are you angry', 'are you busy', 'are you hungry', 'are you sick', 'be careful',
                 'can we meet tomorrow', 'did you book tickets', 'did you finish homework','Hello','lets go for lunch'
                 'do you want something to drink', 'do you want tea or coffee', 'good morning','what is your name'
                  'i am fine', 'i am sorry', 'i am thinking', 'i am tired', 'i dont understand anything','what is your problem'
