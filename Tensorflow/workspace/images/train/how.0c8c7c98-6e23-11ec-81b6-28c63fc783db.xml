@@ -1,0 +1,26 @@
+<annotation>
+	<folder>how</folder>
+	<filename>how.0c8c7c98-6e23-11ec-81b6-28c63fc783db.jpg</filename>
+	<path>E:\Tensorflow Object Detection\TFODCourse\Tensorflow\workspace\images\collectedimages\how\how.0c8c7c98-6e23-11ec-81b6-28c63fc783db.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1272</width>
+		<height>716</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>How</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>91</xmin>
+			<ymin>254</ymin>
+			<xmax>502</xmax>
+			<ymax>621</ymax>
+		</bndbox>
+	</object>
+</annotation>
