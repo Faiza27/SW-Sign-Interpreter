@@ -6,7 +6,7 @@ class TestTextToSign(unittest.TestCase):
 	"""
 	  This is a  class whose instances are single test cases.It has a by default method run tests
 
-      By default, the test code itself should be placed in a method named 'runTest'.
+          By default, the test code itself should be placed in a method named 'runTest'.
 	"""
 
 	def test_TextInput(self):
@@ -18,7 +18,7 @@ class TestTextToSign(unittest.TestCase):
 
 		:return:OK(passed) or FAILED .
 
-        This is also going to show how many tests it ran
+                This is also going to show how many tests it ran
 		"""
 		s = 'E:\\signLang\\Gifs\\any questions.gif'
 		actualOutput=textSign.text_to_sign(text="any questions")
