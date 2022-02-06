@@ -5,3 +5,4 @@ Pillow
 itertools-s
 EasyTkinter
 opencv-python
+PyQt5==5.9.2
