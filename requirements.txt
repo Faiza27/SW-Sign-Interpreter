@@ -1,7 +1,6 @@
 numpy
 matplotlib
 easygui
-os
 string
 Pillow
 itertools
