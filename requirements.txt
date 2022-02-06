@@ -4,3 +4,4 @@ easygui
 Pillow
 itertools-s
 EasyTkinter
+opencv-python
