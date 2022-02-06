@@ -1,0 +1,8 @@
+numpy
+matplotlib.pyplot
+easygui
+os
+string
+Pillow
+itertools
+tkinkter
