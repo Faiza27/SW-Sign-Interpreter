@@ -20,7 +20,7 @@ class TestTextToSign(unittest.TestCase):
 
         This is also going to show how many tests it ran
 		"""
-		s = '\\Gifs\\i am sorry.gif'
+		s = 'i am sorry'
 		actualOutput=textSign.text_to_sign(text="i am sorry")
 		expectedOutput1=os.path.basename(s)
 		#print(expectedOutput1)
