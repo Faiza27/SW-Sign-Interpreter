@@ -3,4 +3,4 @@ matplotlib
 easygui
 Pillow
 itertools-s
-EasyTkinkter
+EasyTkinter
