@@ -48,6 +48,7 @@ def text_to_sign(text):
     """
     Taking input for letters
     """
+    top=TK()
 
     for itr in string.punctuation:
         alphabet = alphabet.replace(itr, "")
@@ -62,7 +63,8 @@ def text_to_sign(text):
         elif (alphabet.lower() in audio_data.my_inputs):
 
             #print("entered into elif for gif")
-            class ImageLabel(tk.Label):
+
+            class ImageLabel(top.Label):
                 """
                 a label that displays images, and plays them, if they are gifs
 
@@ -129,6 +131,7 @@ def text_to_sign(text):
             """
             pack() method tells tk to fit the window of the given text
             """
+
             lbl.load(r'Gifs/{0}.gif'.format(alphabet))
             """load gif"""
             root.mainloop()
