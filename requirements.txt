@@ -6,5 +6,4 @@ itertools-s
 EasyTkinter
 opencv-python
 PyQt5==5.15.6
-json
 urllib.request
