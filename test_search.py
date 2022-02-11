@@ -17,7 +17,7 @@ class TestTextToSign(unittest.TestCase):
         This is also going to show how many tests it ran
 		"""
 		s = 'https://i.ibb.co/D9TXbyH/a.jpg'
-		actualOutput=main.search("a")
+		actualOutput=dictionary.search("a")
 
 		# expectedOutput1=os.path.basename(s)
 		# #print(expectedOutput1)
